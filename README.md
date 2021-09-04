@@ -27,7 +27,11 @@ The frequency that endpoints are called can be configured via the variable in th
 
 On each interaction it calls three endpoints and logs the data to the console:
 
-1. 
+1. an array of liquidatable accounts
+
+2. an array of expired accounts
+
+3. current details about the "dydx markets"
 
 
 <br/>
