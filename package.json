@@ -1,0 +1,29 @@
+{
+  "name": "dydx-liq-mon",
+  "version": "1.0.0",
+  "description": "Liquidation opportunity monitor for dydx",
+  "main": "dist/monitor.js",
+  "scripts": {
+    "start": "tsc && node dist/monitor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TDD-Solidity/DYDX-Liq-Mon.git"
+  },
+  "author": "JimLynchCodes <jim.lynch@evaluates2.com> (https://evaluates2.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TDD-Solidity/DYDX-Liq-Mon/issues"
+  },
+  "homepage": "https://github.com/TDD-Solidity/DYDX-Liq-Mon#readme",
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "@dydxprotocol/solo": "^0.40.1",
+    "dotenv": "^10.0.0",
+    "request-promise-native": "^1.0.9"
+  }
+}
